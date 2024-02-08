@@ -1,5 +1,6 @@
 # Operadores
 
+# Operadores aritméticos
 print(3 + 2) # Suma
 print(3 - 2) # Resta
 print(3 * 2) # Multiplicación
