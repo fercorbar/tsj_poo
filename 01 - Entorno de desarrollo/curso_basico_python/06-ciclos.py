@@ -27,7 +27,7 @@ for key, value in diccionario.items():
 
 # while
 i = 0
-while i < 5:
+while (i < 5):
     print(i)
     i += 1
 

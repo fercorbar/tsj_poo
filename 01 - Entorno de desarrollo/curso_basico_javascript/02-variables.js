@@ -10,12 +10,13 @@
 // const
 // examples
 var name = 'Jhon';
+
 let lastName = 'Doe';
 const PI = 3.1416;
 
 // Números
 let number = 10;
-let float = 10.5;
+let mi_float = 10.5;
 
 // Booleanos
 let isTrue = true;
