@@ -13,3 +13,14 @@ class NombreDeMiClase {
 let mi_objeto = new NombreDeMiClase("Valor atributo_1", "Valor atributo_1"); // En esta línea se instancia la clase
 mi_objeto.metodo_1();
 
+class NombreDeSubclase extends NombreDeMiClase{
+    constructor(atributo_1, atributo_2) {
+        this.atributo_1 = atributo_1;
+        this.atributo_2 = atributo_2;
+    }
+    metodo_1() {
+        console.log(`Hola, este método sobreescribe al metodo de la clase base`);
+    }
+}
+
+
