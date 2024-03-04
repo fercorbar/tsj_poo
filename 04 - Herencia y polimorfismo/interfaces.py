@@ -21,27 +21,27 @@ class ControlSamsung(ControlRemoto):
     def siguiente_canal(self):
         print("Samsung -> Siguiente")
 
-    # def canal_anterior(self):
-    #     print("Samsung -> Anterior")
+    def canal_anterior(self):
+        print("Samsung -> Anterior")
 
-    # def subir_volumen(self):
-    #     print("Samsung -> Subir")
+    def subir_volumen(self):
+        print("Samsung -> Subir")
 
-    # def bajar_volumen(self):
-    #     print("Samsung -> Bajar")
+    def bajar_volumen(self):
+        print("Samsung -> Bajar")
 
 class ControlLG(ControlRemoto):
     def siguiente_canal(self):
         print("LG -> Siguiente")
     
-    # def canal_anterior(self):
-    #     print("LG -> Anterior")
+    def canal_anterior(self):
+        print("LG -> Anterior")
 
-    # def subir_volumen(self):
-    #     print("LG -> Subir")
+    def subir_volumen(self):
+        print("LG -> Subir")
 
-    # def bajar_volumen(self):
-    #     print("LG -> Bajar")
+    def bajar_volumen(self):
+        print("LG -> Bajar")
 
 # Creación de instancias
 samsung_control = ControlSamsung()
